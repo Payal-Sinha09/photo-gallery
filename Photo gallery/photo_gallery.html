@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="photo_gallery.css">
+</head>
+<body>
+    <h2 style="text-align:center" class="title" >Photo Gallery</h2>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="image1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Image-1">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Image-2" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image3.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Image-3" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Image-4">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image5.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Image-5">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image6.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Image-6" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image7.jpeg" style="width:100%" onclick="currentSlide(7)"  alt="Image-7">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image8.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Image-8" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image9.jpeg" style="width:100%" onclick="currentSlide(9)" alt="Image-9" >
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="image10.jpeg" style="width:100%" onclick="currentSlide(10)" alt="Image-10">
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="myGallery">
+          <div class="number">1 / 10</div>
+            <img src="image1.jpeg" style="width:100%">
+        </div>
+      
+        <div class="myGallery">
+          <div class="number">2 / 10</div>
+            <img src="image2.jpeg" style="width:100%">
+        </div>
+      
+        <div class="myGallery">
+          <div class="number">3 / 10</div>
+            <img src="image3.jpeg" style="width:100%">
+        </div>
+      
+        <div class="myGallery">
+          <div class="number">4 / 10</div>
+            <img src="image4.jpeg" style="width:100%">
+        </div>
+      
+        <div class="myGallery">
+          <div class="number">5 / 10</div>
+            <img src="image5.jpeg" style="width:100%">
+        </div>
+      
+        <div class="myGallery">
+          <div class="number">6 / 10</div>
+            <img src="image6.jpeg" style="width:100%">
+        </div>
+        <div class="myGallery">
+            <div class="number">7 / 10</div>
+              <img src="image7.jpeg" style="width:100%">
+        </div>
+        <div class="myGallery">
+            <div class="number">8 / 10</div>
+              <img src="image8.jpeg" style="width:100%">
+        </div>
+        <div class="myGallery">
+            <div class="number">9 / 10</div>
+              <img src="image9.jpeg" style="width:100%">
+        </div>
+        <div class="myGallery">
+            <div class="number">10 / 10</div>
+              <img src="image10.jpeg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <footer class="footer">
+            <h4>Created by Payal Sinha.</h4>
+        </footer>
+      </div>
+      <script src="photo_gallery.js"></script>
+</body>
+</html>
